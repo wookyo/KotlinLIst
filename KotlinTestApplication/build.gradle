@@ -5,18 +5,18 @@ buildscript {
         versionCode = 2023042901
 
         // SDK and tools
-        compileSdkVersion = 33
+        compileSdkVersion = 34
         minSdkVersion = 21
-        targetSdkVersion = 33
+        targetSdkVersion = 34
 
         // act version
         retrofitVersion = '2.9.0'
         gsonConverterVersion = '2.9.0'
         scalarsConverterVersion = '2.9.0'
-        gsonVersion = '2.9.0'
+        gsonVersion = '2.10.1'
         kotlinVersion = '1.6.20'
-        viewmodelVersion="2.4.0"
-        httpLoggingVersion = "4.3.1"
+        viewmodelVersion="2.7.0"
+        httpLoggingVersion = "4.11.0"
     }
     repositories {
         google()
